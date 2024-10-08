@@ -1,0 +1,125 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    text-decoration: none;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+}
+
+html {
+    font-size: 100.5%;
+}
+
+body {
+    background-color: #fff281;
+    margin: 30px;
+    width: 100%;
+    min-height: 100vh;
+}
+
+header nav {
+    background-color: #ff9cbb;
+    padding: 20px;
+    margin: 0 auto 30px;
+    border-radius: 60px;
+    border: 2px solid #ff5e96;
+    max-width: 90%;
+}
+
+nav ul {
+    display: flex;
+    justify-content: center;
+    list-style: none;
+    gap: 30px;
+
+}
+
+nav ul a {
+    color: #d13f72;
+    font-weight: bold;
+    background-color: #ffd5e5;
+    transition: background-color 0.3s ease, color 0.3s ease;
+    width: 120px;
+    height: 50px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border-radius: 20px;
+    border: 2px solid #ff5e96;
+}
+
+nav ul a:hover {
+    background-color: #ff5e96;
+    color: #fff;
+}
+
+
+section.textoquadrado {
+    background-color: #ff9cbb;
+    border: 3px solid #ff5e96;
+    border-radius: 20px;
+    padding: 20px;
+    margin: 0 auto 30px;
+    max-width: 800px;
+    box-shadow: 0 4px 20px rgba(206, 2, 104, 0.5);
+}
+
+
+h1 {
+    text-align: center;
+    color: #c73a6b;
+    margin-bottom: 20px;
+    font-size: 3em;
+}
+
+h2 {
+    color: #feffc3;
+    font-size: 2.2em;
+    margin-bottom: 10px;
+    text-align: center;
+}
+
+
+.idiomas p {
+    background-color: #fff8b9;
+    border-radius: 30px;
+    margin: 20px auto;
+    padding: 10px;
+    max-width: 600px;
+}
+
+
+.idiomas,
+.programacao,
+.illustration {
+    margin: 20px auto;
+    text-align: center;
+    color: #d6356d;
+    font-weight: bold;
+}
+
+
+.programacao {
+
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    gap: 20px;
+    flex-wrap: wrap;
+}
+
+.programacao img {
+    max-width: 200px;
+    background-color: #ff5e96;
+    border-radius: 20px;
+    border: 3px solid #ff5e96;
+    margin: 10px;
+}
+
+.illustration img {
+    max-width: 380px;
+    background-color: #ffd5e5;
+    border-radius: 20px;
+    margin: 10px;
+    border: 3px solid #ff5e96;
+}
